@@ -10,75 +10,70 @@ FOR Example You can contribute these mentioned programs or anything similar to t
 
 ### C
 
-- [Count Sort](C/count-sort.c)
-- [Merge Sort](C/merge-sort.c)
-- [Quick Sort](C/quick-sort.c)
-- [Tower Of Hanoi](C/tower-of-hanoi.c)
-- [Traverse Singly Linked List](C/traverse-singly-linked-list.c)
+- Count Sort
+- Merge Sort
+- Quick Sort
+- Tower Of Hanoi
+- Traverse Singly Linked List
 
 ### C++
 
-- [Binary Search](C++/binary-search.cpp)
-- [Bubble Sort](C++/bubble-sort.cpp)
-- [Circular Linked List Insertion Deletion](C++/circular-linked-list-insertion-deletion.cpp)
-- [Counting Sort](C++/counting-sort.cpp)
-- [Dijkstra's Algorithm](C++/dijkstras-algorithm.cpp)
-- [DNF Sort](C++/dnf-sort.cpp)
-- [Greedy Algorithm - Coin Change](C++/greedyalgo-coinchange.cpp)
-- [Heap Sort](C++/heap-sort.cpp)
-- [Infix To Prefix Postfix](C++/infix-to-prefix-postfix.cpp)
-- [Insertion And Deletion In Stack](C++/insertion-and-deletion-in-stack.cpp)
-- [Insertion Sort](C++/insertion-sort.cpp)
-- [Kanade Algorithm](C++/kanade-algorithm.cpp)
-- [Linked List Deletion](C++/linked-list-deletion.cpp)
-- [Linked List Insertion](C++/linked-list-insertion.cpp)
-- [Merge Sort](C++/merge-sort.cpp)
-- [N_Queens Backtracking Problem](C++/n-queens-backtracking.cpp)
-- [Polygon Triangulation](C++/polygon-triangulation.cpp)
-- [Quick Sort](C++/quick-sort.cpp)
-- [Radix Sort](C++/radix-sort.cpp)
-- [Selection Sort](C++/selection-sort.cpp)
-- [Sliding Window Tech](C++/sliding-window-tech.cpp)
-- [Snake Game](C++/snake-game.cpp)
-- [String Match](C++/string-match.cpp)
-- [Tower Of Hanoi](C++/tower-of-hanoi.cpp)
-- [Tree BFS](C++/tree-bfs.cpp)
-- [Tree DFS](C++/tree-dfs.cpp)
-
-### HTML
-
-- [Site Music](HTML/site-music.html)
+- Binary Search
+- Bubble Sort
+- Circular Linked List Insertion Deletion
+- Counting Sort
+- Dijkstra's Algorithm
+- DNF Sort
+- Greedy Algorithm - Coin Change
+- Heap Sort
+- Infix To Prefix Postfix
+- Insertion And Deletion In Stack
+- Insertion Sort
+- Kanade Algorithm
+- Linked List Deletion
+- Linked List Insertion
+- Merge Sort
+- N_Queens Backtracking Problem
+- Polygon Triangulation
+- Quick Sort
+- Radix Sort
+- Selection Sort
+- Sliding Window Tech
+- Snake Game
+- String Match
+- Tower Of Hanoi
+- Tree BFS
+- Tree DFS
 
 ### Java
 
-- [Bubble Sort](Java/bubble-sort.java)
-- [Cyclic Sort](Java/cyclic-sort.java)
-- [Heap Sort](Java/heap-sort.java)
-- [Insertion Sort](Java/insertion-sort.java)
-- [Merge Sort](Java/merge-sort.java)
-- [Quick Sort](Java/quick-sort.java)
-- [Selection Sort](Java/selection-sort.java)
-- [Z Algorithm](Java/z-algorithm.java)
+- Bubble Sort
+- Cyclic Sort
+- Heap Sort
+- Insertion Sort
+- Merge Sort
+- Quick Sort
+- Selection Sort
+- Z Algorithm
 
 ### Python
 
-- [8 Queens]
-- [AVL Tree]
-- [Bubble Sort]
-- [Dijkstra's Algorithm]
-- [First Unique Character]
-- [Floyd's Triangle]
-- [Insertion Sort]
-- [Knapsack]
-- [Merge Sort]
-- [Quick Sort]
-- [Segment Tree]
-- [Segment Sort]
+- 8 Queens
+- AVL Tree
+- Bubble Sort
+- Dijkstra's Algorithm
+- First Unique Character
+- Floyd's Triangle
+- Insertion Sort
+- Knapsack
+- Merge Sort
+- Quick Sort
+- Segment Tree
+- Segment Sort
 
 ## 🙋 How to contribute?
 
 We are open to new additions and suggestions. Please refer to the [contribution guide](CONTRIBUTING.md).
-For more Doubts you can connect to
 
 # Hacktoberfest-2021
 
