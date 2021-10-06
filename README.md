@@ -29,7 +29,7 @@ FOR Example You can contribute these mentioned programs or anything similar to t
 - Infix To Prefix Postfix
 - Insertion And Deletion In Stack
 - Insertion Sort
-- Kanade Algorithm
+- Kadane's Algorithm
 - Linked List Deletion
 - Linked List Insertion
 - Merge Sort
