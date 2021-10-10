@@ -1,6 +1,6 @@
 # Contribution Guide 📝
 
-NOTE: YOU might observe that the below rule are not maintained in the previous contributions becuase this guide is refered by our special contributor.Hence this guide is applied to further contributions only.
+NOTE: YOU might observe that the below rule are not maintained in the previous contributions because this guide is referred by our special contributor.Hence this guide is applied to further contributions only.
 
 ## Adding Algorithms & Data Structures
 
@@ -31,6 +31,6 @@ The first _letter_ of each word in the link title should be in uppercase.
 
 If the language heading does not exist already then add a new heading in such a way that the headings remain in alphabetical order.
 
-Create a Pull Request after commiting the changes.
+Create a Pull Request after committing the changes.
 
 Thank you in advance for your contribution 😊
