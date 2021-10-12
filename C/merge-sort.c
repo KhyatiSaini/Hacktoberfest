@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-void merge(int a[],int low,int m,int high){
+void merge(int a[],int low,int m,int high){           //function to merge
     int i,j,k;
     int s1=m-low+1;
     int s2=high-m;
