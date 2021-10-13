@@ -30,6 +30,7 @@ FOR Example You can contribute these mentioned programs or anything similar to t
 - Insertion And Deletion In Stack
 - Insertion Sort
 - Kadane's Algorithm
+- Left View of Binary Tree
 - Linked List Deletion
 - Linked List Insertion
 - Merge Sort
