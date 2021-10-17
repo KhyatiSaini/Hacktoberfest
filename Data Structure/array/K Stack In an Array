@@ -1,0 +1,83 @@
+#include<bits/stdc++.h>
+#define endl "\n"
+using namespace std;
+
+int arr[20];
+int top[5];
+int nex[20];
+int fre=0;
+
+
+bool isEmpty(int stack_no){
+return top[stack_no]==-1?1:0;
+}
+
+bool isFull(int stack_no){
+   return  fre==-1?1:0;
+}
+
+void push(int data,int stack_no){
+
+if(isFull(stack_no))cout<<"Stack Overflow !"<<endl;
+else
+{
+
+int i=fre;
+fre=nex[i];
+nex[i]=top[stack_no];
+top[stack_no]=i;
+arr[i]=data;
+}
+
+}
+
+void pop(int stack_no){
+
+if(isEmpty(stack_no))cout<<"Stack UnderFlow !"<<endl;
+else
+{
+int i=top[stack_no];
+top[stack_no]=nex[i];
+nex[i]=fre;
+fre=i;
+cout<<arr[i]<<endl;
+}
+
+
+}
+
+int main(){
+ios_base::sync_with_stdio(false);
+for (int i = 0; i < 19; i++)
+    nex[i]=i+1;
+
+    nex[19]=-1;
+
+for (int i = 0; i < 5; i++)
+    top[i]=-1;
+  
+push(1,0);
+push(1,1);
+push(1,2);
+push(1,3);
+push(1,4);
+push(2,0);
+push(2,1);
+push(2,2);
+push(2,3);
+push(2,4);
+push(3,0);
+push(3,1);
+push(3,2);
+push(3,3);
+push(3,4);
+pop(0);
+pop(2);
+pop(4);
+pop(0);
+pop(3);
+pop(0);
+
+
+return 0;
+}
