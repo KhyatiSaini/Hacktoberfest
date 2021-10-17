@@ -1,0 +1,95 @@
+#include<bits/stdc++.h>
+#define endl "\n"
+using namespace std;
+
+class Stack{
+
+public:
+
+int top=-1;
+int a[5];
+
+void push(int n){
+
+if(top==4)cout<<"OverFlow!"<<endl;
+
+else
+{
+    top++;
+    a[top]=n;
+}    
+}
+
+void pop(){
+
+    if(top==-1)cout<<"UnderFlow!"<<endl;
+    else
+    {
+        top--;
+    }
+}
+
+int return_top(){return a[top];}
+
+int isEmpty(){
+
+return (top==-1)?1:0;
+}
+};
+
+
+class Queue{
+public:
+Stack s1,s2;
+int top=-1;
+void enqueue(int n)
+{
+
+if(top<4){top++;
+s1.push(n);}
+
+}
+
+
+void dequeue(){
+
+if(top>-1){
+while (!s1.isEmpty())
+{
+    int x=s1.return_top();
+    s1.pop();
+    s2.push(x);
+}
+
+int x=s2.return_top();
+s2.pop();
+cout<<x<<endl;
+top--;
+
+}
+}
+
+};
+
+
+int main(){
+ios_base::sync_with_stdio(false);
+
+Queue q1;
+q1.enqueue(1);
+q1.enqueue(2);
+q1.enqueue(3);
+q1.enqueue(4);
+q1.enqueue(5);
+q1.enqueue(6);
+q1.dequeue();
+q1.dequeue();
+q1.dequeue();
+q1.dequeue();
+q1.dequeue();
+q1.dequeue();
+
+
+
+return 0;
+}
