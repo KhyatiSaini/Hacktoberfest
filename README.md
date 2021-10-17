@@ -13,6 +13,7 @@ FOR Example You can contribute these mentioned programs or anything similar to t
 - Count Sort
 - Merge Sort
 - Quick Sort
+- Selection Sort
 - Tower Of Hanoi
 - Traverse Singly Linked List
 
