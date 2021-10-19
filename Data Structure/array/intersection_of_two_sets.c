@@ -2,11 +2,15 @@
 #include <conio.h>
 #include <stdlib.h>
 
+// declaration of user defined functions
+
 void intersection_of_sets(int *a1, int *a2, int n1, int n2);
 void input_set();
 void print_intersection();
 int delete_dub();
 void sort();
+
+// glabal variables are declared and initialized
 
 int n1 = 0, n2 = 0, i1 = 0;
 int *a1, *a2;
@@ -16,18 +20,18 @@ int k1 = 0, k2 = 0;
 
 //--------------------------------- Bubble sort ----------------------------------------
 
-void sort(int *arr, int n)
+void sort(int *arr, int n)         // arr is a pointer storing address of base index of array which is passed in the function
 {
     int i = 0, j = 0, k, temp, swap = 0;
     temp = arr[0];
-    for (i = 0; i < n; i++)
+    for (i = 0; i < n; i++)           // outer for loop for no of passes
     {
-        for (j = 0; j < n- 1 - i; j++)
+        for (j = 0; j < n- 1 - i; j++)      // inner for loop for no of comparisions
         {
             if (arr[j] > arr[j + 1])
             {
                 swap = arr[j];
-                arr[j] = arr[j + 1];
+                arr[j] = arr[j + 1];                       // swapping two values by using third variable
                 arr[j + 1] = swap;
             }
            
@@ -41,13 +45,13 @@ void sort(int *arr, int n)
 
 int delete_dub(int *arr, int n)
 {
-    int t = 0, k1 = 0;
+    int t = 0, k1 = 0;                      // initializing variables
     for (t = 0; t < n - 1; t++)
     {
-        if (arr[t] != arr[t + 1])
+        if (arr[t] != arr[t + 1])     
         {
-            arr[k1] = arr[t];
-            k1++;
+            arr[k1] = arr[t];       // if both the values are not equal then arr[t] will be stored in arr[k1]
+            k1++;                             // k1 is incremented
         }
     }
     arr[k1] = arr[n - 1];
@@ -58,7 +62,7 @@ int delete_dub(int *arr, int n)
         printf("%d ", arr[i1]);
     }
     printf("\n");
-    return k1+1; //yjyuu
+    return k1+1; 
 }
 
 //------------------------- printing intersection of two given sets ----------------------------------------
@@ -66,7 +70,7 @@ int delete_dub(int *arr, int n)
 void print_intersection()
 {
     printf("set after intersection is\n");
-    for (i1 = 0; i1 <k; i1++)
+    for (i1 = 0; i1 <k; i1++)                 // loop for printing array after intersection
     {
         printf("%d ", final_array[i1]);
     }
