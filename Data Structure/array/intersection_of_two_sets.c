@@ -134,4 +134,6 @@ int main()
     intersection_of_sets(a1, a2, k1, k2);
 
     print_intersection();
+
+return 0;
 }
