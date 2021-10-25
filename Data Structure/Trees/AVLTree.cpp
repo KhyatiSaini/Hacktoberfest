@@ -1,5 +1,11 @@
 // AVL tree implementation in C++
 
+//AVL tree is a self-balancing Binary Search Tree (BST)
+//where the difference between heights of left and right subtrees
+//cannot be more than one for all nodes. The above tree is AVL 
+//because differences between heights of left and right subtrees 
+//for every node is less than or equal to 1.
+
 #include <iostream>
 using namespace std;
 
