@@ -1,4 +1,4 @@
-// CPP program to find minimum and maximum lement in an array.
+// CPP program to find minimum and maximum element in an array.
 #include <bits/stdc++.h>
 using namespace std;
  
