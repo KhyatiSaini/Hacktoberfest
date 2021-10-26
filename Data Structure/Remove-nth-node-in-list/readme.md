@@ -1,0 +1,1 @@
+- [Removing The nth Node In The List](Data Structure/Remove-nth-node-in-list/Removing-the-nth-node-in-list.cpp)
