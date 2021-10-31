@@ -1,0 +1,31 @@
+#include<iostream.h>
+#include<conio.h>
+void main()
+{
+clrscr();
+int a[5],b[5],c[10],i;
+cout<<"Enter 1st array";
+for(i=0;i<5;i++)
+{
+cin>>a[i];
+}
+cout<<"Enter 2nd array";
+for(i=0;i<5;i++)
+{
+cin>>b[i];
+}
+for(i=0;i<5;i++)
+{
+c[i]=a[i];
+}
+for(i=0;i<5;i++)
+{
+c[i+5]=b[i];
+}
+for(i=0;i<10;i++)
+{
+cout<<c[i]<<endl;
+}
+getch();
+}
+
